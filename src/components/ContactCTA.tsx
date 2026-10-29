@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { ArrowRight, Phone, Mail, MapPin } from 'lucide-react';
+export default function ContactCTA(){return <section className="cta-band"><div><div className="eyebrow"><i/> DALŠÍ KROK</div><h2>Máte projekt?<br/>Pojďme ho posunout.</h2><p>Popište nám, co potřebujete udělat. Společně najdeme vhodný postup i rozsah prací.</p></div><div className="cta-actions"><Link className="pill" href="/kontakt">Nezávazně poptat <ArrowRight size={17}/></Link><a href="tel:+420777123456"><Phone size={17}/> +420 777 123 456</a><a href="mailto:info@zemniprace-rt.cz"><Mail size={17}/> info@zemniprace-rt.cz</a><span><MapPin size={17}/> Velká Bíteš a okolí</span></div><div className="cta-mark">RT<span>3CX</span></div></section>}
