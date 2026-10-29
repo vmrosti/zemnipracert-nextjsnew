@@ -1,3 +1,0 @@
-import type { ReactNode } from 'react';
-import Image from 'next/image';
-export default function PageHero({eyebrow,title,lead,image='/images/hero-jcb.jpg',light=false}:{eyebrow:string;title:ReactNode;lead:string;image?:string;light?:boolean}){return <section className={`inner-hero ${light?'inner-hero-light':''}`}><Image src={image} alt="JCB 3CX při zemních pracích" fill priority sizes="100vw"/><div className="inner-hero-shade"/><div className="inner-hero-content"><div className="eyebrow"><i/>{eyebrow}</div><h1>{title}</h1><p>{lead}</p></div><div className="inner-hero-index">RT <span> / </span> ZEMNÍ PRÁCE</div></section>}

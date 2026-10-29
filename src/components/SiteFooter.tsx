@@ -1,3 +1,0 @@
-import Link from 'next/link';
-const links=[['Úvod','/'],['Služby','/sluzby'],['Realizace','/realizace'],['O nás','/o-nas'],['Technika','/technika'],['Kontakt','/kontakt']];
-export default function SiteFooter(){return <footer className="footer"><Link className="logo" href="/"><b>RT</b><span>ZEMNÍ PRÁCE RT</span></Link><nav>{links.map(([label,url])=><Link href={url} key={url}>{label}</Link>)}</nav><div className="social"><a href="mailto:info@zemniprace-rt.cz" aria-label="E-mail">✉</a><a href="tel:+420777123456" aria-label="Telefon">☎</a></div><small>© {new Date().getFullYear()} Zemní práce RT. Všechna práva vyhrazena.</small></footer>}
