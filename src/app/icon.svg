@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140">
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#fff"/><stop offset=".18" stop-color="#7c8287"/><stop offset=".32" stop-color="#f8f9f9"/><stop offset=".52" stop-color="#8c9297"/><stop offset=".7" stop-color="#f4f5f5"/><stop offset=".86" stop-color="#666d72"/><stop offset="1" stop-color="#e4e7e9"/></linearGradient>
+ <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".42" stop-color="#aeb4b8"/><stop offset=".72" stop-color="#555c61"/><stop offset="1" stop-color="#d9dddf"/></linearGradient>
+ <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="2.4"/><feOffset dx="1.5" dy="3.5" result="offset"/><feComponentTransfer><feFuncA type="linear" slope=".38"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#shadow)" stroke-linejoin="bevel">
+ <path d="M10 10 H119 L166 56 V83 L126 123 H37 L10 96 Z" fill="#202428" stroke="url(#steel)" stroke-width="5"/>
+ <path d="M22 22 H113 L153 61 V78 L122 111 H43 L22 89 Z" fill="none" stroke="url(#steel)" stroke-width="4"/>
+ <text x="89" y="96" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900" font-style="italic" letter-spacing="-9" fill="url(#face)" stroke="#282d31" stroke-width="2.2" paint-order="stroke">RT</text>
+ <path d="M17 14 H118 L162 57" fill="none" stroke="#fff" stroke-opacity=".78" stroke-width="1.5"/>
+</g></svg>
